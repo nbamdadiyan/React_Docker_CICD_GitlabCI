@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  frontend:
+    image: $REGISTRY_USER/melobit:latest
+    ports:
+      - 8095:3000
